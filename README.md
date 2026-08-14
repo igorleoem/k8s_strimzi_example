@@ -140,3 +140,5 @@ kubectl delete -f manifests/02-kafka-cluster.yaml
 kubectl delete -f manifests/01-kafka-nodepool.yaml
 kubectl delete pvc -l strimzi.io/cluster=my-cluster -n kafka
 ```
+
+
